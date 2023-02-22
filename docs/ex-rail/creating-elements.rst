@@ -348,7 +348,7 @@ If you need more sensors then there are available pins on the Mega, you use one 
    :scale: 30%
 
 .. todo:: HIGH - Link here to recommended pin/vpin allocations etc.
-
+https://github.com/DCC-EX/dcc-ex.github.io/blob/sphinx/docs/reference/hardware/pin-vpin-allocations.rst#default-pinvpin-allocations-and-recommendations
 Configure myAutomation.h - Sensors
 ----------------------------------
 
