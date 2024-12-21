@@ -43,7 +43,7 @@ In addition, the CSB1 expands on the proven EXRAIL automation and animation capa
 
 The EX-CSB1 is available immediately for purchase in The United States, The UK, Austria, Australia, New Zealand and South East Asia. Pricing starts at $120 US / $AU190 / 95 GBP / 115 Euro the DCC-EX store and resellers listed here:
 
-.. include:: include__dealers.rst
+.. include:: /purchasing/include__dealers.rst
 
 Initial documentation is at: http://dcc-ex/ex-csb1 with design files on the DCC-EX Github.
 
