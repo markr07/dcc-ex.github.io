@@ -181,6 +181,20 @@ You can change any output of the Motor Driver either temporarily or permanently 
 
 |HR-DASHED|
 
+Controlling the output not the loco
+------------------------------------
+
+It is important to note a key difference between controlling a DCC loco on a DCC output/track, and controlling a DC loco on a DC output/track.
+
+In the case on DCC, you select the individual DCC address of the loco and you control just that loco regardless of how many other DCC locos are on the track.
+
+In the case of DC it is very different. You control the whole output/track and all the locos on it simultaneously.  *To do so we must assign that output/track an address.*  It is not a real DCC Address, but from the perspective of your controller, it will think it is a DCC Address.
+
+When you read further just remember that the address assigned DC output/track is not really the loco.  *It is an address for the output/track.*
+
+
+|HR-DASHED|
+
 Temporarily Changing to DC
 --------------------------
 
@@ -297,8 +311,8 @@ We will be adding some instructions the ``myAutomation.h`` file a re-uploading t
 
 ----
 
-Selecting DC loco to control
-============================
+Selecting A DC loco to control
+==============================
 
 While the process to control a loco is exactly the same as a DCC loco, the process to select it will vary depending on *how* you configured the Motor Driver Output to be DC.
 
