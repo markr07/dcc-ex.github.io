@@ -192,7 +192,6 @@ In the case of DC it is very different. You control the whole output/track and a
 
 When you read further just remember that the address assigned DC output/track is not really the loco.  *It is an address for the output/track.*
 
-
 |HR-DASHED|
 
 Temporarily Changing to DC
@@ -313,6 +312,8 @@ We will be adding some instructions the ``myAutomation.h`` file a re-uploading t
 
 Selecting A DC loco to control
 ==============================
+
+Remember that the address you assigned DC output/track above is not really the loco.  *It is an address for the output/track.*
 
 While the process to control a loco is exactly the same as a DCC loco, the process to select it will vary depending on *how* you configured the Motor Driver Output to be DC.
 
