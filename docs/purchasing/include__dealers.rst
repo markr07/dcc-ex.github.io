@@ -31,6 +31,7 @@ In England serving the UK
 
 
 * `Chesterfield Model Making and Miniature Electronics <https://chesterfield-models.co.uk/product-category/dcc-ex/>`_ |EXTERNAL-LINKxa|
+* `ACI Model Railways <https://acimodelrailways.co.uk/>`_ |EXTERNAL-LINKxa|
 
 
 |HR-DASHEDxa|
@@ -47,7 +48,7 @@ In Austria serving the European Union (EU)
 .. rst-class:: clearer
 
 
-* `Semify <https://www.semify-eda.com/ex-motorshield8874/>`_ |EXTERNAL-LINKxa|
+* `Model Railway Electronics powered by Semify <https://www.mrw-electronics.com/>`_ |EXTERNAL-LINKxa|
 
 
 |HR-DASHEDxa|
