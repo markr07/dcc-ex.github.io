@@ -425,7 +425,7 @@ Using |TM| with simple easy commands from a throttle or from a serial monitor we
 
 This allows a throttle on track B set to DCX to operate in forward and reverse correctly for west bound engines
 
-So, you can take a standard DC motor only engines Cab road number on the side of the engine and assign it to one or more of up to 8 tracks/districts/blocks labelled A thru H. Then enter that same number into a throttle and control that Address on each and every one of the assigned tracks.
+So, you can take a standard DC motor only loco's road number on the side of the loco and assign it to one or more of up to 8 tracks/districts/blocks labelled A thru H. Then enter that same number into a throttle and control that Address on each and every one of the assigned tracks.
 
   * Valid Cab addresses are 1 to 10239.
   * Invalid Cab address is 0 zero.
@@ -434,15 +434,15 @@ So, you can take a standard DC motor only engines Cab road number on the side of
 
   We do not support Zero stretching / zero stretch address function, found on Digitrax and Lenz command Stations. See the ':ref:`reference/hardware/dcc-vs-dcc:this is not zero stretching`' section for more information.
 
-Place any analogue DC engine on a TrackManager DC assigned track with our |EX-CS| and it sits there dead quiet with lights off. When the throttle speed is increased in either direction and then lights up and begins to move.
+Place any analogue DC loco/engine on a TrackManager DC assigned track with our |EX-CS| and it sits there dead quiet with lights off. When the throttle speed is increased in either direction and then lights up and begins to move.
 
 A DCC Loco with a DC enabled sound decoder also sits quietly and when the throttle increases the sound will turn on first then as you throttle up more it will begin moving.  You can throttle back until it stops but leave a little throttle speed on say 5% and the Sound will continue to play while it is stopped.
 
-Throttle speed response for DC Locos vary because the DCdistrict track is operating from 0Vdc to 16+Vdc ~PWM waveform signal. Locos operating on a DCdistrict with either WiFi Throttles and EXRAIL Automation scripts with |Engine Driver| Handoff run different DC motors at different speeds.
+Throttle speed response for DC locos vary because the DCdistrict track is operating from 0Vdc to 16+Vdc ~PWM waveform signal. Locos operating on a DCdistrict with either WiFi Throttles and EXRAIL Automation scripts with |Engine Driver| Handoff run different DC motors at different speeds.
 
 So a script for FWD(50) speed will run at completely different speeds for two different DC motors depending on their resistance and efficiency.  One crawls at 50 while the other one runs like a bat out of hell.
 
-You can also run a DCC Locos with DC Conversion CV enabled On and run on the DCdistrict, without having to change the decoder DCC address.
+You can also run a DCC locos with DC Conversion CV enabled On and run on the DCdistrict, without having to change the decoder DCC address.
 
 They will all run on that section of track.
 
@@ -527,6 +527,8 @@ Note that the Address to be used for a DC or DCX block must be set before the ``
     SETLOCO(1225)
     SET_TRACK(C, DC)
     
+|HR-DASHED|
+
 Create EX-RAIL list of Track Manager Functions for Engine Driver Automatically Assign [Handoff] buttons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -559,6 +561,8 @@ In a |EX-R| Automation script we could assign a track mode to DC and wait for a 
  Copy and repeat AUTOMATION(506-510, District B  mode)
   and create any additional combinations or tracks C - H as you add more motor boards.
 
+|HR-DASHED|
+
 Create EX-RAIL Track Manager Functions for Engine Driver Throttle Automation [Handoff] buttons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -573,6 +577,8 @@ In a |EX-R| Automation script we could a Set a Loco Address to a specific track 
    Run a your Roundhouse script blow whistle, run Forward delay wait and run Reverse delay stop       
    DELAYRANDOM(msec, msec) // randomise the run time between runs
    DONE
+
+|HR-DASHED|
 
 Create EX-RAIL Track Manager Functions for Engine Driver Throttle Route [Set] buttons
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -595,6 +601,7 @@ All done through DCC-EX TrackManager with a simple push of a GUI button of Eithe
 TrackMagic uses the road number ID of a DC Engine in a throttle to run it on a assigned track/district/block, mimicking the look of DCC Engines.
 No DPDT Switches are required, all waveform mode switching is done by Track Manager Software instructions.
 
+|HR-DASHED|
 
 DCC-EX Command Station with EX-RAIL & TrackManager
 ---------------------------------------------------
@@ -604,6 +611,8 @@ Cool thing is the new EXRAIL Automation(n) & Routes(n) work the same with DCC en
 With the new DCC-EX direct WiFi Discovered Server you can connect |Engine Driver| & other WiThrottle app based throttles directly and have EXRAIL [Handoff] & [Set] buttons to run EXRAIL scripts from the throttles.
 
 These are DCC-EX Major feature/benefits because with other systems you'll have to use a PC computer or Pi processor & JMRI for WiThrottle Server throttle access and you have to write two different JMRI Jython.py scripts and then Setup Tools> Tables> Routes for for both DCC and DC automation & routes runs.
+
+|HR-DASHED|
 
 Modular Layouts
 ---------------
@@ -639,6 +648,8 @@ DCX is Opposite Polarity and is what you set Block B to when you want it in DC m
 ..  or any combination with up to 8 separate dual insulated tracks/districts from A - H.
 .. 
 .. All done through the free |DCC-EX| TrackManager commands.
+
+----
 
 EXRAIL examples
 ===============
@@ -713,6 +724,8 @@ Example of User defined EXRAIL Scripts running on Engine Driver Throttle App (An
   :scale: 50%
 
   Track Manager - Engine Driver handoff/set
+
+|HR-DASHED|
 
 EXRAIL Functions Displaying on Smartphone Apps & Universal WiFi Throttles
 -------------------------------------------------------------------------
