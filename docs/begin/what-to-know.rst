@@ -20,7 +20,7 @@ This page goes through some introductory information about our team and our prod
 
 Please read on, or use the index to the right to skip to any topic of interest.
 
-If you are comfortable with differences between DCC & DC and already know a bit about our products, skip on to the :doc:`next page</begin/levels>` where we explain how our products, and the pages on this site, are tagged by how simple or complex they are.
+If you are comfortable with differences between DCC & DC and already know a bit about our products, skip on to the :doc:`next page</begin/levels>` where we explain how our products, and the pages on this site, are tagged with how simple or complex they are.
 
 |HR-DASHED|
 
@@ -29,14 +29,14 @@ What is DCC-EX?
 
 1. |DCC-EX| is the name of our team of dedicated enthusiasts producing open source *DCC & DC solutions* to run your entire model railroad layout. 
 
-2. |DCC-EX| is **also** that name that most people associate with our first and most significant product, the |EX-CS|. |BR| These terms are often used interchangeably, though they are in fact different.
+2. |DCC-EX| is **also** that name that most people associate with our first and most significant product, the |EX-CS|. |BR| (These terms are often used interchangeably, though they are in fact different.)
 
 |HR-DASHED|
 
-Our free and Open Source Products
+Our Free and Open Source Products
 ---------------------------------
 
-Our list of free, open source software products currently include:
+Our *free*, open source software products currently include:
 
 .. list-table::
     :widths: 33 33 33
@@ -86,7 +86,7 @@ Our list of free, open source software products currently include:
     * - |EX-TB-LOGO-SMALL| 
       -  An Android app to help configure your EX-CommandStation
   
-Our list of open source hardware products currently include:
+Our open source hardware products currently include:
 
 .. list-table::
     :widths: 33 33 33
@@ -117,9 +117,9 @@ Our list of open source hardware products currently include:
 What is EX-CommandStation?
 ==========================
 
-|EX-CS| is or flagship product and is explained in great detail :doc:`elsewhere on the site</ex-commandstation/index>`, but a brief summary would be...
+|EX-CS| is our flagship product and is explained in great detail :doc:`elsewhere on the site</ex-commandstation/index>`, but a brief summary would be...
 
-  An |EX-CS| is a simple, but powerful, DCC and DC Command Station which you can purchase :doc:`ready-to-run</ex-commandstation/ready-to-run/index>` or :doc:`assemble yourself</ex-commandstation/diy/index>` from widely available parts.
+  An |EX-CS| is a simple, but powerful, **DCC** and **DC** Command Station / Base Station which you can purchase :doc:`ready-to-run</ex-commandstation/ready-to-run/index>` or :doc:`assemble yourself</ex-commandstation/diy/index>` from widely available parts.
 
 Many people call |EX-CS| "DCC-EX". These terms are often used interchangeably, though they are in very fact different.
 
@@ -143,7 +143,11 @@ We do DC as well!
 
 For those of you who already have an investment in DC locos and accessories, the |EX-CS| can still run your older DC collection! But we hope you will also take a look to see how DCC can open up a world of possibilities for you.
 
-As mentioned, along with DCC, a |EX-CS| can be used to control Direct Current (DC) locomotives using Pulse Width Modulation (PWM). This is actually an improvement over pure DC since the full voltage is always applied to the track. Rather than controlling a voltage from zero to full to control speed, the average *time* the full voltage is applied controls the speed. This allows for better stops and starts and smoother operation at low speeds. We do NOT use the flawed "zero stretching" method some command stations use.
+As mentioned, along with DCC, a |EX-CS| can be used to control **Direct Current (DC)** locomotives using **Pulse Width Modulation (PWM)**. 
+
+This is actually an improvement over pure DC since the full voltage is always applied to the track in pulses. Rather than controlling a voltage from zero to full to control speed, the average *time* the full voltage is applied controls the speed. This allows for better stops and starts and smoother operation at low speeds. 
+
+*We do NOT use the flawed "zero stretching" method some command stations use.*
 
 More information on using DC PWM can be found :doc:`on the TrackManager page </trackmanager/index>`.
 
@@ -152,7 +156,7 @@ More information on using DC PWM can be found :doc:`on the TrackManager page </t
 DCC-EX is for more than just controlling trains
 -----------------------------------------------
 
-DCC, and in particular our flagship product |EX-CS|, can also be used to control accessories (think turnouts/points, signals, sensors to monitor things, and lineside feature animation to name a few). DCC is not just about running trains! You can control your entire layout from one command station.
+DCC, and in particular our flagship product |EX-CS|, can also be used to control accessories (like turnouts/points, signals, sensors to monitor things, and lineside feature animations, to name a few). DCC is not just about running trains! You can control your entire layout from one command station.
 
 Of course you don't need to use any of these features if you simply want to run trains without any of the bells and whistles (though we control the bells and whistles too!).
 
@@ -162,6 +166,25 @@ Please read on to understand which of our products and features can help you ach
 
 Some Common Scenarios Explored
 ==============================
+
+I just want to run my trains
+----------------------------
+
+If you simply want a system to run your **DCC** or **DC** trains, then you only need to concern yourself with our |EX-CS| software running on our :doc:`EX-CommandStation/Booster One Express </ex-commandstation/ready-to-run/index>` *or* on a :doc:`DIY EX-CommandStation </ex-commandstation/diy/index>`.
+
+|EX-CS| is our core digital controller product. While it can also do a lot more, you don't need to know about any other features or capabilities in order to use it to just run trains.
+
+Note that you will need a :doc:`throttle or controller </throttles/index>` to connect to the |EX-CS| (via serial, WiFi, or Ethernet), but you already have a throttle - your laptop or your phone. 
+
+  Our |EX-WT| runs on a computer connected to the CS via a USB cable. And there are several excellent apps, like |Engine Driver| that are free and can have you up and running in minutes via a WiFi connection. 
+  
+  If physical knobs and buttons are your thing, there are plenty of :ref:`DIY physical throttles <throttles/index:dedicated hardware>` as well as commercial ones like the :doc:`TCS throttles </throttles/hardware/uwt50>`.
+
+Be sure to begin your walkthrough at the :doc:`/begin/levels` page which will then guide you through the :doc:`/ex-commandstation/index` documentation and the :doc:`/throttles/index` section to become familiar with what throttle options are available.
+
+This provides a very cost effective and expandable introduction to DCC train control using inexpensive hardware and our (free) open source |EX-CS| software.
+
+|HR-DASHED|
 
 I'm interested in DCC but have a limited budget
 -----------------------------------------------
@@ -183,19 +206,6 @@ About the only things we can't help you with is your benchwork and ballasting! ;
 You can start by going to the :doc:`/begin/levels` section and clicking the next button at the bottom of each page to walk through the tutorial in order to understand how to get a basic DCC and/or DC CommandStation up and running.
 
 You can also read through the :doc:`/ex-commandstation/accessories/index` section of our documentation to understand how you can control accessories, and also look through :doc:`/throttles/index` to see what throttle/controller options are available to control your trains and/or accessories. But be sure to go back to the beginning by starting at :doc:`/begin/levels`.
-
-|HR-DASHED|
-
-I just want to run my trains
-----------------------------
-
-If you simply want a system to run your DCC or DC trains, then you only need to concern yourself with |EX-CS| running on our |EX-CSB1| or on a DIY system using a board like an Arduino Mega. |EX-CS| is our core digital controller product. While it can also do a lot more, you don't need to know about any other features or capabilities in order to use it to just run trains.
-
-Note that you will need a throttle or controller to connect to the CS (via serial, WiFi, or Ethernet), but you already have a throttle - your laptop or your phone. Our |EX-WT| runs on a computer connected to the CS via a USB cable. And there are several excellent apps, like |Engine Driver| that are free and can have you up and running in minutes via a WiFi connection. If physical knobs and buttons are your thing, there are plenty of DIY physical throttles as well as commercial ones like the TCS throttles.
-
-Be sure to begin your walkthrough at the :doc:`/begin/levels` page which will then guide you through the :doc:`/ex-commandstation/index` documentation and the :doc:`/throttles/index` section to become familiar with what throttle options are available.
-
-This provides a very cost effective and expandable introduction to DCC train control using inexpensive hardware and our (free) open source |EX-CS| software.
 
 |HR-DASHED|
 
