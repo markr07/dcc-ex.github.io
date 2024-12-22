@@ -6,14 +6,14 @@
 .. include:: /include/include-description.rst
 |donate-button|
 
-****************
-Lets Get Started
-****************
+*******************************
+Lets Get Started + Our Products
+*******************************
 
 .. sidebar:: 
 
   .. contents:: On this page
-    :depth: 2
+    :depth: 3
     :local:
 
 This page goes through some introductory information about our team and our products.  It also explores some common scenarios and answers some common questions. 
@@ -31,10 +31,13 @@ What is DCC-EX?
 
 2. |DCC-EX| is **also** that name that most people associate with our first and most significant product, the |EX-CS|. |BR| (These terms are often used interchangeably, though they are in fact different.)
 
-|HR-DASHED|
+----
 
 Our Free and Open Source Products
----------------------------------
+=================================
+
+Our Free, Open Source Software
+------------------------------
 
 Our *free*, open source software products currently include:
 
@@ -68,7 +71,7 @@ Our *free*, open source software products currently include:
     :class: table-list-homepage
 
     * - |EX-CS-LOGO-SMALL| 
-      - Our DCC & DC command station software for controlling your model railroad
+      - Our DCC & DC command station software for controlling your model railroad. (For a ready-to-run version of the EX-CommandStation see our :doc:`EX-CSB1 </ex-commandstation/ready-to-run/index>`)
     * - |EX-I-LOGO-SMALL| 
       - Our user friendly command station software installer
     * - |EX-R-LOGO-SMALL| 
@@ -85,7 +88,10 @@ Our *free*, open source software products currently include:
       -  A FastClock to enable time based events
     * - |EX-TB-LOGO-SMALL| 
       -  An Android app to help configure your EX-CommandStation
-  
+
+Our Open Source Hardware
+------------------------
+
 Our open source hardware products currently include:
 
 .. list-table::
@@ -112,7 +118,7 @@ Our open source hardware products currently include:
     * - |EX-WS-LOGO-SMALL| 
       - Our WiFi add-on board for DIY command stations
 
-|HR-DASHED|
+----
 
 What is EX-CommandStation?
 ==========================
@@ -123,7 +129,7 @@ What is EX-CommandStation?
 
 Many people call |EX-CS| "DCC-EX". These terms are often used interchangeably, though they are in very fact different.
 
-|HR-DASHED|
+----
 
 What is DCC?
 ============
@@ -136,7 +142,7 @@ To get a more in depth introduction to the DCC standard and protocol, you can re
 
 However, if you just want to know how DCC, and in particular |DCC-EX|, can help you run your trains while also adding more functionality, control, and realism to your layouts, then continue reading here.
 
-|HR-DASHED|
+----
 
 We do DC as well!
 =================
@@ -281,3 +287,22 @@ We **DO NOT** use the flawed "zero stretching" / "zero bit stretching" method so
 The |EX-CS| uses a completely different approach. Any Track outputs can be switched from DCC to DC PWM. Either one type or the other, not both at the same time on the one output. (But different outputs can be different at the same time.)
 
 e.g. Most Motor Boards have two outputs. Both can be DCC, or one DCC and one DC, or both DC.
+
+|HR-DASHED|
+
+What is DCC++
+-------------
+
+**DCC++** is the original name of the software developed by Gregg Berman. When this was redeveloped into the EX-CommandStation software the 'DCC++' name hung around though it is largely obsolete.  For backwards compatibility with external systems like JMRI, the term is still needed.
+
+See the :doc:`/news/posts/20201001` news article for more information.
+
+
+----
+
+Next Steps
+==========
+
+To learn more about a specific product, click on one of the links above.
+
+For how to buy a *ready-to-run (RTR)* or build your own *do-it-yourself (DIY)* |EX-CS| station, click 'Next' or proceed to the :doc:`Ex-Command Station Page </ex-commandstation/index>`.
