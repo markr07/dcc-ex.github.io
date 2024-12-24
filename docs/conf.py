@@ -188,6 +188,7 @@ redirects = {
     "ex-commandstation/get-started/controllers": "../controllers-diy.html",
     "ex-commandstation/get-started/testing": "../testing-diy.html",
     "ex-commandstation/advanced-setup/supported-bluetooth/index": "../../../reference/hardware/bluetooth.html",
+    "ex-csb1/quick-setup": "../ex-commandstation/ready-to-run/connecting.html",
     "ex-installer/installing-original-installer": "index.html",
     "ex-rail/deprecate-EX-RAIL-reference": "index.html",
     "ex-rail/deprecate-EX-RAIL-summary": "index.html",
