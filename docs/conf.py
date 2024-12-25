@@ -77,7 +77,7 @@ highlight_language = 'none'
 # Automatically number figure captions
 numfig = True
 
-numfig_format = {'figure': 'Figure %s'}
+numfig_format = {'figure': 'Fig %s:'}
 
 # -- Options for HTML output -------------------------------------------------
 
