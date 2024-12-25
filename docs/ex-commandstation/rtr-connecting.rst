@@ -29,7 +29,7 @@ What You Will Need
 
 * An |EX-CSB1| [#c1]_
 * A **Power supply** (12V - 16V DC see :ref:`Power Supplies <reference/hardware/power-supplies:power supplies>`)
-* A **DCC loco** (If you are here to run DC locos, please go to the :doc:`trackmanager/index` page.)
+* A **DCC loco** (If you are here to run DC locos, please go to the :doc:`../trackmanager/index` page.)
 * Some **Track**
 * **16 to 28AWG/1.5mm^2 Wire**, preferably in 2 colours with 1/8"/6mm insulation stripped (and wire tinned if stranded)
 * Jeweller's **flat bladed screwdriver** (1.5 - 2mm blade)
