@@ -502,6 +502,7 @@ Full EX-CSB1 Operating Manual
 ------------------------------
 
 :doc:`rtr-manual`
+`design files <https://github.com/DCC-EX/EX-CSB1>`_ |EXTERNAL-LINK|
 
 ----
 
