@@ -223,6 +223,7 @@ redirects = {
     "reference/hardware/other/index": "../../reference/hardware/index.html",
     "reference/hardware/shopping-list": "../../ex-commandstation/purchasing.html",
     "reference/software/command-summary": "../../reference/software/command-summary-consolidated.html",
+    "reference/software/command-reference": "../../reference/software/command-summary-consolidated.html",
     "reference/software/single-opcode-reference": "../../reference/software/command-summary-consolidated.html",
     "site-map/index": "../about/site-map.html",
     "support/create-ticket": "../support/index.html",
