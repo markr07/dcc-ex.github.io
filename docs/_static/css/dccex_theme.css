@@ -861,7 +861,11 @@ figure.align-right {
   margin: 0 0 12px 12px !important;
 }
 
-figure.align-right figcaption p {
+figure.align-left {
+  margin: 0 24px 12px 0 !important;
+}
+
+figure.align-right figcaption p, figure.align-left figcaption p {
   margin: 4px 0 0px 0px !important;
   line-height: 16px;
 }
