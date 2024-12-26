@@ -371,16 +371,16 @@ Powering the EX-CSB1
 
 The |EX-CSB1| has a 2.1mm x 5.5mm power jack. If you already have a power supply with bare wires, you can use an optional 2.1mm x 5.5mm screw terminal block adapter. For more information about power supplies, including how to use one power supply to supply all the different voltages on your layout, see :ref:`Power Supplies <reference/hardware/power-supplies:power supplies>`.
 
-To power up the CSB1, just plug your power supply into the mains power (aka wall outlet) and connect the barrel end to the Command Station. Make sure your power supply matches the needs of your setup: the voltage should be between 12V and 25V DC, depending on the scale of your locomotives, and it should provide at least 2A of current with good over-current performance and voltage stability.
-
-To get the most out of your EX-CSB1, we suggest using a modern switching power supply with 4A or more. For Z scale, 12V is usually enough, but for N, HO, and OO scales, we recommend using between 14V and 16V DC. It's important that your DC power is well-regulated which is why we suggest a modern switch-mode power supply with double insulation and strong overload protection.
-
 .. figure:: /_static/images/power/12v-3A-brick.png
-   :alt: 12V 3A brick power supply
+   :alt: 12V brick power supply
    :scale: 100%
    :align: right
 
-   12V/3A Power Supply
+   12V Power Supply
+
+To power up the CSB1, just plug your power supply into the mains power (aka wall outlet) and connect the barrel end to the Command Station. Make sure your power supply matches the needs of your setup: the voltage should be between 12V and 25V DC, depending on the scale of your locomotives, and it should provide at least 2A of current with good over-current performance and voltage stability.
+
+To get the most out of your EX-CSB1, we suggest using a modern switching power supply with 4A or more. For Z scale, 12V is usually enough, but for N, HO, and OO scales, we recommend using between 14V and 16V DC. It's important that your DC power is well-regulated which is why we suggest a modern switch-mode power supply with double insulation and strong overload protection.
 
 .. NOTE:: Your power supply can be rated at *or above* the specified Amperage rating. You must not exceed the voltage rating of your device, but a little extra current is ok, since the CSB1 will only use as much as it needs. However, remember that both voltage and current can be dangerous.
 
@@ -390,11 +390,7 @@ When you connect power to the CSB1, you should see one or both bright green powe
 
 However, for safety, track power will be off by default when you first plug in the |EX-CSB1-SHORT|. This is to prevent power from accidentally being applied to your layout before everything is ready. See the :ref:`EX -Installer page <ex-installer/installing:start with power on>` for more information on how to change this behaviour.
 
-----
-
-|HR-DASHED|
-
-----
+|HR-HEAVY|
 
 Connecting and Testing Your Command Station
 ============================================

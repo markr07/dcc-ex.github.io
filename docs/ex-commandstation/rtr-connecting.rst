@@ -150,7 +150,7 @@ If you use stranded wire, we recommend "tinning" the ends of the wire to make a 
    
    See :doc:`/reference/hardware/wire-gauge` for more information or wire gauge.
 
-Larger wire can handle more current and provide less resistance.  18-22 AWG usually good. Keep your wires short by mounting the CS close to the track. 
+Larger wire can handle more current and provide less resistance.  18-22 AWG usually good. Keep your wires short by mounting the Command Station close to the track. 
 
 Using a small flat-bladed screwdriver, loosen both screws on the MAIN (A) Track Output being careful not to screw them all the way out. The screws just need to be loosened enough to fit your wires into the holes. Tighten down both screws once you have inserted the wires making sure to not overtighten. 
 

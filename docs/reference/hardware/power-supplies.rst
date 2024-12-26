@@ -12,25 +12,12 @@ Power Supplies
 .. sidebar::
 
   .. contents:: On this page
-    :depth: 1
+    :depth: 2
     :local:
 
 The power supply is one of the most important parts of your setup. You need to select a clean, filtered power supply that can supply the correct voltage and deliver the amount of current required by your devices.
 
-**What's covered here:**
-
-* :ref:`reference/hardware/power-supplies:Do I need two power supplies?`
-* :ref:`reference/hardware/power-supplies:Four ways to power the Arduino`
-* :ref:`reference/hardware/power-supplies:Powering the Motor Controller`
-* :ref:`reference/hardware/power-supplies:Wall Warts`
-* :ref:`reference/hardware/power-supplies:Bricks (Laptop Style)`
-* :ref:`reference/hardware/power-supplies:Adjustable Power Supplies`
-* :ref:`reference/hardware/power-supplies:Cage Power Supplies`
-* :ref:`reference/hardware/power-supplies:Dual voltage power supplies`
-* :ref:`reference/hardware/power-supplies:Using one power supply with cheap converters to power everything`
-* :ref:`reference/hardware/power-supplies:Using Buck Converters`
-* :ref:`reference/hardware/power-supplies:Using Diodes to Reduce Voltage`
-
+|HR-DASHED|
 
 Do I need two power supplies?
 ==============================
@@ -95,7 +82,7 @@ Bricks (Laptop Style)
 
 * This is a good 14V, 3A unit
 
-.. image:: /_static/images/power/samsung_brick.jpg
+.. image:: /_static/images/power/samsung_brick.png
    :scale: 25%
    :alt: Samsung brick
 
@@ -114,7 +101,7 @@ Adjustable Power Supplies
 
 https://www.amazon.com/dp/B07J6RC43S/ |EXTERNAL-LINK|
 
-.. image:: /_static/images/power/belker_adjustable_45w.jpg
+.. image:: /_static/images/power/belker_adjustable_45w.png
    :scale: 25%
    :alt: Belker_adjustable brick
 
@@ -125,7 +112,7 @@ Cage Power Supplies
 
 * The Meanwell LRS-100-15 power supply is a good choice for larger scales. It supplies 15V and 105W (that's 7 amps), so it is plenty for running two channels simultaneously. At only $18, it is an inexpensive and solid option.
 
-.. image:: /_static/images/meanwell-lrs100.jpg
+.. image:: /_static/images/power/meanwell-lrs100.png
    :scale: 100%
    :alt: Meanwell
 
@@ -140,7 +127,7 @@ With a dual voltage power supply, you can provide 12V for the motor controller a
 
 * Mean Well Dual Voltage Power Supply (5V and 12V)
 
-.. image:: /_static/images/meanwell_rd125A.jpg
+.. image:: /_static/images/power/meanwell_rd125A.png
    :scale: 100%
    :alt: Mean Well RD125A Dual voltage power supply
 
@@ -173,7 +160,7 @@ Using Buck Converters
 
 The following image shows how to connect buck converters. You start with a power supply with more voltage than the highest voltage you want to convert and with enough current to drive everything you want to power. This example shows a 15V supply that you can connect directly to the input to the motor controller which will in turn power your track. If you need to power 5V and 12V devices, you simply get 2 buck converters, connect them in parallel to the 15V output of your power supply (or to extra 15V outputs on the supply), and adjust each one to the voltage output you want. Then connect the converters to your 5V and 12V bus and connect your devices to the correct bus.
 
-.. image:: /_static/images/power/using_buck_converters.jpg
+.. image:: /_static/images/power/using_buck_converters.png
    :scale: 70%
    :alt: Using Buck Converters
 
