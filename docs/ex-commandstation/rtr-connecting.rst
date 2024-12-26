@@ -215,7 +215,7 @@ For more information about power supplies, including how to use one power supply
 
    2.1mm Screw Terminal Adapter
 
-.. figure:: /_static/images/12v-3A-brick.jpg
+.. figure:: /_static/images/power/12v-3A-brick.png
    :alt: 12V 3A brick power supply
    :scale: 100%
    :align: center

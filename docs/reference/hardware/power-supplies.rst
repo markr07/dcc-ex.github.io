@@ -80,7 +80,7 @@ Wall Warts
 
 * Wall warts are a good choice for beginners and those not comfortable with mains wiring. You can get a 12V, 3A, relatively small one for around $8 US. 
 
-.. image:: /_static/images/12v-3A-wall-wart-sm.jpg
+.. image:: /_static/images/power/12v-3A-wall-wart-sm.png
    :scale: 100%
    :alt: 12V Wall Wart
 
@@ -89,7 +89,7 @@ Bricks (Laptop Style)
 
 * You can also find plenty of laptop type "brick" power supplies. They come in ranges from 12V to 19.5V and 3-5 Amps.
 
-.. image:: /_static/images/12v-3A-brick.jpg
+.. image:: /_static/images/power/12v-3A-brick.png
    :scale: 100%
    :alt: 12V 3A Brick Power Supply
 
@@ -108,7 +108,7 @@ Adjustable Power Supplies
 
 * These have a selector switch to choose the voltage. Be careful to get a model that can deliver the current you need at the voltage you want. Sometimes the maximum output current will vary depending on the voltage selected.
 
-.. image:: /_static/images/power/belker_adjustable.jpg
+.. image:: /_static/images/power/belker_adjustable.png
    :scale: 25%
    :alt: Belker_adjustable wall-wart
 

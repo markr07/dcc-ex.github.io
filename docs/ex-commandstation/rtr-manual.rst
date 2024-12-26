@@ -337,7 +337,7 @@ Unpopulated Power Connector
    :scale: 45%
    :align: right
 
-   Unpopulated Power Pads
+   Unpopulated |BR| Power Pads
 
 These unpopulated solder pads are used internally for testing and can provide power connections for an optional header. When operated without an |EX-MS| on top, a user could remove the barrel jack and solder pins here capable of handling the 5A maximum current to power the board and the track.
 
@@ -362,12 +362,12 @@ Additionally, important pins are labelled should you need access to them from th
 Powering the EX-CSB1
 =====================
 
-.. figure:: /_static/images/power/2_1mm_screw_terminal_adapter.png
+.. figure:: /_static/images/ex-csb1/2_1mm_screw_terminal_adapter.png
    :scale: 40%
    :align: right
    :alt: 2.1mm screw terminal adapter
 
-   2.1mm Screw Terminal Adapter
+   2.1mm Screw |BR| Terminal Adapter
 
 The |EX-CSB1| has a 2.1mm x 5.5mm power jack. If you already have a power supply with bare wires, you can use an optional 2.1mm x 5.5mm screw terminal block adapter. For more information about power supplies, including how to use one power supply to supply all the different voltages on your layout, see :ref:`Power Supplies <reference/hardware/power-supplies:power supplies>`.
 
@@ -375,7 +375,7 @@ To power up the CSB1, just plug your power supply into the mains power (aka wall
 
 To get the most out of your EX-CSB1, we suggest using a modern switching power supply with 4A or more. For Z scale, 12V is usually enough, but for N, HO, and OO scales, we recommend using between 14V and 16V DC. It's important that your DC power is well-regulated which is why we suggest a modern switch-mode power supply with double insulation and strong overload protection.
 
-.. figure:: /_static/images/12v-3A-brick.jpg
+.. figure:: /_static/images/power/12v-3A-brick.png
    :alt: 12V 3A brick power supply
    :scale: 100%
    :align: right
