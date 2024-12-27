@@ -172,6 +172,10 @@
 ..
 .. ...............................................
 ..
+.. |EX-R-FULL| replace::
+
+    **EX**\tended **R**\ailroad **A**\utomation **I**\nstruction **L**\anguage
+..
 .. |Motor Driver| replace::
 
     :doc:`Motor Driver </reference/hardware/motor-boards>`
