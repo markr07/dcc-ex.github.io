@@ -196,6 +196,7 @@ redirects = {
     "ex-commandstation/ready-to-run/wifi-setup.html": "../rtr-wifi-setup.html",
     "excsb1/quick-setup": "../ex-commandstation/rtr-connecting.html",
     "ex-csb1/quick-setup": "../../ex-commandstation/rtr-connecting.html",
+    "csb1/quick-setup": "../ex-commandstation/rtr-connecting.html",
     "ex-installer/installing-original-installer": "index.html",
     "ex-rail/deprecate-EX-RAIL-reference": "index.html",
     "ex-rail/deprecate-EX-RAIL-summary": "index.html",
