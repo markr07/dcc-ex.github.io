@@ -172,9 +172,13 @@
 ..
 .. ...............................................
 ..
-.. |EX-R-FULL| replace::
+.. |EX-R-FULL| raw:: html
 
-    **EX**\tended **R**\ailroad **A**\utomation **I**\nstruction **L**\anguage
+  <span class="ex-prefix">EX</span><span class="ex-suffix">tended </span>
+  <span class="ex-prefix">R</span><span class="ex-suffix">ailroad</span>
+  <span class="ex-prefix">A</span><span class="ex-suffix">utomation</span>
+  <span class="ex-prefix">I</span><span class="ex-suffix">nstruction</span>
+  <span class="ex-prefix">l</span><span class="ex-suffix">anguage</span>
 ..
 .. |Motor Driver| replace::
 
