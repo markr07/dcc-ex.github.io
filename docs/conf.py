@@ -171,7 +171,7 @@ redirects = {
     "advanced-setup/supported-microcontrollers/index": "../../advanced-setup/supported-microcontrollers/index.html",
     "advanced-setup/supported-motorboards/index": "../../reference/hardware/motor-boards.html",
     "automation/EX-RAIL-intro": "../ex-rail/index.htm",
-    "automation/index": "../ex-rail/index.htm",
+    "automation/index": "../ex-rail/index.html",
     "developer-reference/api": "../reference/developers/api.html",
     "developer-reference/api": "../reference/developers/api.html",
     "developer-reference/index": "../reference/developers/index.html",
