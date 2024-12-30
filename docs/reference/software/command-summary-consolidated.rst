@@ -194,6 +194,8 @@ The settings achievable vary slightly depending upon the processor running the C
 
 Note that these functions are not cumulative - setting F30 overrides F29 and setting F31 overrides F29 & F30.
 
+*Note that you need to stop the loco (throttle to zero) before changing the frequency using the function buttons.*
+
 For details on setting F keys see "Turn Loco decoder functions ON or OFF" in `Cab (Loco) Commands`_ below.
 
 For ease of changing these functions within |EX-R| an EXRAIL command SET_FREQ is available to select the frequency within automations/routes.

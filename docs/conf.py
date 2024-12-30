@@ -229,6 +229,7 @@ redirects = {
     "reference/software/command-summary": "../../reference/software/command-summary-consolidated.html",
     "reference/software/command-reference": "../../reference/software/command-summary-consolidated.html",
     "reference/software/single-opcode-reference": "../../reference/software/command-summary-consolidated.html",
+    "reference/software/index-dcpp-commands": "./command-summary-consolidated.html",
     "site-map/index": "../about/site-map.html",
     "support/create-ticket": "../support/index.html",
     "support/makerfabs-update-at-version-with-usb-to-ttl": "../support/wifi-at-version.html#correcting-the-at-version-on-a-makerfabs-esp8266-wifi-shield",

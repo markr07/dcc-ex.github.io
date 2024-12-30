@@ -453,6 +453,8 @@ Trial and error will be needed for specific locos that do not respond well to th
 
 Note that these functions are not cumulative - setting F30 overrides F29 and setting F31 overrides F29 & F30.
 
+*Note that you need to stop the loco (throttle to zero) before changing the frequency using the function buttons.*
+
 ----
 
 Replacing or Integrating Into Your Current Layout
