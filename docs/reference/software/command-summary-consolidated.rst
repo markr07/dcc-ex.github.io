@@ -1232,6 +1232,8 @@ By design, for safety reasons, the NMRA specification prevents locos from respon
 
 |hr-dashed|
 
+.. _native-command-r:
+
 ``<R>`` - Read DCC decoder (cab) address
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
