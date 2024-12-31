@@ -19,8 +19,8 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'DCC-EX Model Railroading'
-copyright = '2020-2024 DCC-EX Team'
-author = 'Fred Decker, , Peter Akers, Peter Cole, Paul Antoine, Mani Kumar'
+copyright = '2020-2025 DCC-EX Team'
+author = 'Fred Decker, Peter Akers, Peter Cole, Paul Antoine, Mani Kumar'
 
 
 # -- General configuration ---------------------------------------------------
@@ -38,7 +38,7 @@ extensions = [
     # 'sphinx.ext.ifconfig',
     # 'sphinx.ext.viewcode',
     # 'sphinx.ext.graphviz',
-    # 'sphinx_sitemap',
+    'sphinx_sitemap',
     # 'sphinx.ext.inheritance_diagram',
     'sphinxcontrib.spelling',
     'sphinx_toolbox.collapse',
