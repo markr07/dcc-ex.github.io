@@ -1958,19 +1958,19 @@ It is anticipated that throttle developers will be able to "draw" turntables wit
   
   .. code-block:: cpp
 
-    ``<I 1 DCC 0>`` - defines a DCC accessory turntable/traverser with a 0 degree home angle.
-    ``<I 1 ADD 1 201 100>`` - adds position 1, which is at linear DCC address 201, and 10 degrees from home.
-    ``<I 1 ADD 2 202 450>`` - adds position 2, which is at linear DCC address 202, and 45 degrees from home.
-    ``<I 1 ADD 3 203 1900>`` - adds position 3, which is at linear DCC address 203, and 190 degrees from home.
+    <I 1 DCC 0>          // defines a DCC accessory turntable/traverser with a 0 degree home angle.
+    <I 1 ADD 1 201 100>  // adds position 1, which is at linear DCC address 201, and 10 degrees from home.
+    <I 1 ADD 2 202 450>  // adds position 2, which is at linear DCC address 202, and 45 degrees from home.
+    <I 1 ADD 3 203 1900> // adds position 3, which is at linear DCC address 203, and 190 degrees from home.
   
   *Example:* This example defines an EX-Turntable device, with 3 positions:
   
   .. code-block:: cpp
 
-    ``<I 2 EXTT 50>`` - defines an EX-Turntable turntable/traverser with a 5 degree home angle.
-    ``<I 2 ADD 1 200 100>`` - adds position 1, which is 200 steps from home, and 10 degrees from home.
-    ``<I 2 ADD 2 1500 450>`` - adds position 2, which is 1500 steps from home, and 45 degrees from home.
-    ``<I 2 ADD 3 8000 1900>`` - adds position 3, which is 8000 steps from home, and 190 degrees from home.
+    <I 2 EXTT 50>         // defines an EX-Turntable turntable/traverser with a 5 degree home angle.
+    <I 2 ADD 1 200 100>   // adds position 1, which is 200 steps from home, and 10 degrees from home.
+    <I 2 ADD 2 1500 450>  // adds position 2, which is 1500 steps from home, and 45 degrees from home.
+    <I 2 ADD 3 8000 1900> // adds position 3, which is 8000 steps from home, and 190 degrees from home.
 
 ----
 

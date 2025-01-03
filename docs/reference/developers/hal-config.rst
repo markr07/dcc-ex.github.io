@@ -174,8 +174,8 @@ cause damage to the servo gearing, or to any layout components you have connecte
 
 .. code-block:: cpp
 
-	<T 301 1>  -- Instructs the turnout to move to the 'thrown' position.
-	<T 301 0>  -- Instructs the turnout to move the the 'closed' position.
+	<T 301 1>  // Instructs the turnout to move to the 'thrown' position.
+	<T 301 0>  // Instructs the turnout to move the the 'closed' position.
 
 In EXRAIL, the servo can be controlled directly via the **SERVO(pin,position,profile)** or **SERVO2(pin,position,duration)** commands.
 	
