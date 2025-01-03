@@ -946,7 +946,7 @@ System Information
   |_| > **C**: Designator to signify this is a current meter (V would be for voltage) |BR|
   |_| > **"Milli"**: Unit of measure for external software with a meter like JMRI (Milli, Kilo, etc.) |BR|
   |_| > **"0":** numbered parameter for external software (1,2,3, etc.) |BR|
-  |_| > **max_ma**: The maximum current handling of the motor controller in MilliAmps |BR|
+  |_| > **max_ma**: The maximum current handling of the |motor driver| in MilliAmps |BR|
   |_| > **"1"**: number parameter for external software (we use 2 parameters here, 0 and 1) |BR|
   |_| > **trip_ma** - The overcurrent limit that will trip the software circuit breaker in mA
 
@@ -963,7 +963,7 @@ System Information
   |_|  |BR|
   |_| > **version:** Command Station version |BR|
   |_| > **microprocessorType:**  microprocessor type (e.g. MEGA) |BR|
-  |_| > **MotorControllerType:**  Motor controller type (e.g. STANDARD_MOTOR_SHIELD) |BR|
+  |_| > **MotorControllerType:**  |motor driver| type (e.g. STANDARD_MOTOR_SHIELD) |BR|
   |_| > **buildNumber:**  Command Station build number |BR|
   |_| > **id:** unique identifier for the Turnout/Point |BR|
   |_| > **state:** one of  |BR|

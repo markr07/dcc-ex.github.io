@@ -70,7 +70,7 @@ The first test, ``ACK-BASELINE`` gets a baseline reading of the current on your 
 
 Since most bits will be 0, we check that first to save time. ``V0`` means ``Verify zero``. If do not get a zero, we then try to verify a 1 - ``V1`` means "Verify one". If we don't get either, we display an error. A bit must be either a 0 or a 1 so the test will fail, but the data returned can help us see why. 
 
-If we succeed on the first bit, we check each of the remaining 7 bits. ``NO-ACK`` means we did not see the bit value we were testing for, ``ACK-OK`` tells us we received an ACK. After each bit test, we show how long it took to receive the ACK (or the timeout value if we detected none), the Arduino raw pin reading being sent by your motor controller's current sense circuit, and what that translates to in milliAmps. Finally, we report the duration of the ACK Pulse, if detected.
+If we succeed on the first bit, we check each of the remaining 7 bits. ``NO-ACK`` means we did not see the bit value we were testing for, ``ACK-OK`` tells us we received an ACK. After each bit test, we show how long it took to receive the ACK (or the timeout value if we detected none), the Arduino raw pin reading being sent by your |motor driver|'s current sense circuit, and what that translates to in milliAmps. Finally, we report the duration of the ACK Pulse, if detected.
 
 We do one final test at the end to ``Verify Byte``, you see that as ``VB``. This does a double-check to see if the byte contains what we found by checking it one bit at a time. The must match for a successful read.
 
