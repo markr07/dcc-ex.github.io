@@ -658,11 +658,16 @@ html[data-theme='dark'] .table-wrap-text td {
 
 .table-grid-homepage td, .table-list-homepage td {
   font-size: 80% !important;
-  color: #666666 !important;
+  color: #181818 !important;
   vertical-align:top !important;
   background-color: #ffffff00 !important;  
   border-style: none !important;
   border-width: 0px !important;
+  padding: 10px;
+}
+
+html[data-theme='dark'] .table-grid-homepage td, html[data-theme='dark'] .table-list-homepage td {
+  color: #ccc !important;
 }
 
 .table-wrap-text, .table-grid-homepage, .table-list-homepage { 
