@@ -179,7 +179,7 @@ Launch the |Arduino IDE| (or whatever editor you use) and open the CommandStatio
 
 Remove the last line and replace it with this. To be sure of your spelling, you can copy and paste everything:
 
-.. code-block:: c
+.. code-block:: cpp
 
    #define MOTOR_SHIELD_TYPE IRF3205_ARDUINO_ACS724
 
@@ -294,7 +294,7 @@ Launch the |Arduino IDE| (or whatever editor you use) and open the CommandStatio
 
 Remove the last line and replace it with this. To be sure of your spelling, you can copy and paste everything:
 
-.. code-block:: c
+.. code-block:: cpp
 
    #define MOTOR_SHIELD_TYPE IRF3205_ACS724
 

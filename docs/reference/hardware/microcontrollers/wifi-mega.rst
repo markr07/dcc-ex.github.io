@@ -124,7 +124,7 @@ https://wiki.python.org/moin/BeginnersGuide/Download |EXTERNAL-LINK|
 
 Once you have Python installed, you will need to install esptool.py. Open a command prompt and use pip (or Homebrew on a macOS) to find and install it from the web:
 
-.. code-block::
+.. code-block:: shell
 
    $ pip install esptool
 
@@ -136,7 +136,7 @@ NOTE:with some Python installations that command may not work and you'll receive
 
 If you got an error about setuptools being missing, install setuptools with:
 
-.. code-block::
+.. code-block:: shell
 
    $ pip install setuptools
 

@@ -78,7 +78,7 @@ Other than when using the "decoder address test", ``<R>`` with no parameters, yo
 
 To turn off the ack diagnostics use any parameter that is not "ON" or "LIMIT".
 
-.. code-block:: none
+.. code-block:: cpp
 
    <D ACK NOPE>, <D ACK OFF>, etc.
 
@@ -91,13 +91,13 @@ Diag messages off.
 
 The Ack current limit is set according to the DCC standard(s) of 60mA. Most decoders send a quick back and forth current pulse to the motor to generate this ACK. However, some modern motors (N and Z scales) may not be able to draw that amount of current. You can adjust down this limit. Or, if for some reasons your acks seem to be too "trigger happy" you can make it less sensitive by raising this limit.
 
-.. code-block:: none
+.. code-block:: cpp
 
    <D ACK LIMIT 30>
 
 would set the ack limit to 30mA (more sensitive). 
 
-.. code-block:: none
+.. code-block:: cpp
 
    <D ACK LIMIT 100>
 
@@ -119,7 +119,7 @@ The NMRA specifies that the ACK pulse duration should be 6 milliseconds, which i
 
 Example 1: You use the <D ACK ON> and <R> commands described above to generate a test log from a loco on your programming track. You see that there are ACK pulses but that their durations are less than 4000 microseconds. The log shows the shortest one was 3450. You might then choose a setting a little bit lower than your lowest reading:
 
-.. code-block:: none
+.. code-block:: cpp
 
    <D ACK MIN 3300>
 
@@ -127,7 +127,7 @@ Example 2: You use the <D ACK ON> and <R> commands described above to generate a
 You see that some of the ACK pulses are longer than 8500 µS. The longest one is 10350 µS. 
 Pick a setting a little bit higher than your highest reading like this:
 
-.. code-block:: none
+.. code-block:: cpp
 
    <D ACK MAX 10500>
 
