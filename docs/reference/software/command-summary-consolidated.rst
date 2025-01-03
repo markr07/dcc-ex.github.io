@@ -1956,7 +1956,7 @@ It is anticipated that throttle developers will be able to "draw" turntables wit
 
   *Example:* This example defines a DCC accessory device, with 3 positions:
   
-  .. code-block:: 
+  .. code-block:: cpp
 
     ``<I 1 DCC 0>`` - defines a DCC accessory turntable/traverser with a 0 degree home angle.
     ``<I 1 ADD 1 201 100>`` - adds position 1, which is at linear DCC address 201, and 10 degrees from home.
@@ -1965,7 +1965,7 @@ It is anticipated that throttle developers will be able to "draw" turntables wit
   
   *Example:* This example defines an EX-Turntable device, with 3 positions:
   
-  .. code-block:: 
+  .. code-block:: cpp
 
     ``<I 2 EXTT 50>`` - defines an EX-Turntable turntable/traverser with a 5 degree home angle.
     ``<I 2 ADD 1 200 100>`` - adds position 1, which is 200 steps from home, and 10 degrees from home.
