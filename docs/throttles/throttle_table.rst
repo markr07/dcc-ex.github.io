@@ -235,7 +235,7 @@
       -  
       -  
 
-    * -  `HandCab <https://github.com/1fatgmc/HandCab/tree/main>`_ |EXTERNAL-LINK|
+    * -  `HandCab <https://github.com/1fatgmc/HandCab/tree/main>`_
       -  Free
       -  WiFi
       -  WiT
