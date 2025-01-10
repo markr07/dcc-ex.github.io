@@ -50,6 +50,7 @@ Android (Phones and Tablets)
 Apple iOS (Phones and Tablets)
 ------------------------------
 
+- :doc:`ThrottleCard (iOS) <software/throttlecard>`
 - :doc:`Locontrol (iOS) <software/locontrol>`
 - :doc:`WiThrottle (iOS) <software/withrottle>`
 - :doc:`SRCP Client (iOS) <software/srcpclient>`
@@ -78,6 +79,7 @@ Personal Computers
 - :doc:`DigiTrainsPro (Android, iOS, Windows) <software/digitrainspro>` *- Requires JMRI*
 - :doc:`Train Throttle <software/train-throttle>`
 - :doc:`Railroad Automation <software/railroad-automation>` *- Requires IoTT Red Hat*
+- :doc:`ThrottleCard (M1 Mac) <software/throttlecard>` *- Requires WiThrottle server*
 
 Note: The Android throttle apps listed above can be made to made to run on Windows PCs. See :doc:`Running Android apps on Microsoft Windows <software/android-apps-on-windows>`.
 
@@ -111,6 +113,7 @@ DCC-EX (DCC-EX Native Commands)
 WiThrottle Protocol Based Throttles
 -----------------------------------
 
+- :doc:`ThrottleCard (iOS) <software/throttlecard>`
 - :doc:`Engine Driver (Android)<software/engine-driver>`
 - :doc:`Locontrol (iOS) <software/locontrol>`
 - :doc:`Cab Engineer: DCC Throttle (Andriod) <software/cab-engineer>`
