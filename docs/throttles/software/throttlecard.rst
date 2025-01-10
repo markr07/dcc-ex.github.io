@@ -1,9 +1,9 @@
 .. include:: /include/include.rst
 .. include:: /include/include-l2.rst
 .. include:: /include/include-throttles.rst
-**********
+************
 ThrottleCard
-**********
+************
 
 |SUITABLE| |conductor| |tinkerer| |engineer| |support-button| 
 
@@ -53,11 +53,11 @@ Screenshots
 
 .. image:: /_static/images/throttles/throttlecard1.jpeg
    :alt: ThrottleCard Screenshot 1
-   :scale: 90%
+   :scale: 50%
 
 .. image:: /_static/images/throttles/throttlecard2.jpeg
    :alt: ThrottleCard Screenshot 2
-   :scale: 90%
+   :scale: 50%
 
 ..
    The next line is trying to avoid a duplicate label name since many files may have a requirements section
