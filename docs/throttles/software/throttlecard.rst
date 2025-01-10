@@ -82,7 +82,7 @@ To use WiFi, make sure you have a WiFi enabled |EX-CS| as described in the :doc:
 * Change to same network of the PC that |JMRI| or your |WiThrottle Server| is on
 * Start the |ThrottleCard| App
 * |ThrottleCard| will search for the |WiThrottle Server| on the |EX-CS| and show in the connections list
-* If your |WiThrottle Server| is not showing in the list, you can manually add it by entering the IP address of the |EX-CS| and the port number - usually 12090
+* If your |WiThrottle Server| is not showing in the list, you can manually add it by entering the IP address of the |EX-CS| and the port number - usually 12090 or 2560
 
 To use ThrottleCard, simply connect to any WiThrottle Protocol enabled command station including JMRI, DCC-EX, and various commercial offerings. 
 ThrottleCard can be used for free without a subscription to control the speed, direction, and functions of a single locomotive at a time, throw turnouts, and change the theme.
