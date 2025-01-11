@@ -26,6 +26,7 @@ Android (Phones and Tablets)
 Apple iOS (Phones and Tablets)
 ------------------------------
 
+- :doc:`ThrottleCard (iOS) <throttlecard>`
 - :doc:`Locontrol (iOS) <locontrol>` *- Requires JMRI*
 - :doc:`DigiTrainsPro (Android) <digitrainspro>` *- Requires JMRI*
 - :doc:`WiThrottle (iOS)<withrottle>`
@@ -41,6 +42,7 @@ Personal Computers
 - :doc:`Train Throttle (Windows) <train-throttle>`
 - :doc:`DigiTrainsPro (Android) <digitrainspro>` *- Requires JMRI*
 - :doc:`Railroad Automation <railroad-automation>` *- Requires IoTT Red Hat*
+- :doc:`ThrottleCard (M1 Mac) <throttlecard>` *- Requires WiThrottle server*
 
 Note: The Android throttle apps listed above can be made to made to run on Windows PCs. See :doc:`Running Android apps on Microsoft Windows <android-apps-on-windows>`.
 
@@ -56,6 +58,7 @@ Note: The Android throttle apps listed above can be made to made to run on Windo
     DigiTrainsPro (Android, iOS, Windows) <digitrainspro>
     RtDtive DCC++ (Android) <rtdrive-dccpp>
     WiThrottle (iOS) <withrottle>
+    ThrottleCard (iOS) <throttlecard>
     Locontrol (iOS) <locontrol>
     SRCP Client (iOS) <srcpclient>
     Train Driver (iOS) <train-driver>
