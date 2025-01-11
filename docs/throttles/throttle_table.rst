@@ -81,20 +81,6 @@
       -  
       -  X [#t3]_
 
-    * -  :doc:`ThrottleCard <software/throttlecard>`
-      -  Free / Paid
-      -  WiFi
-      -  WiT
-      -  App
-      -  
-      -  
-      -  
-      -  X
-      -  
-      -  X
-      -  
-      -  
-
     * -  :doc:`DCCpp CAB <software/dccpp-cab>`
       -  Free
       -  WiFi / BT
@@ -193,17 +179,17 @@
       -  
       -  
 
-    * -  :doc:`Train Driver <software/train-driver>`
-      -  Free
+    * -  :doc:`ThrottleCard <software/throttlecard>`
+      -  Free / Paid
       -  WiFi
-      -  Native / WiT
+      -  WiT
       -  App
       -  
       -  
       -  
       -  X
       -  
-      -  
+      -  X
       -  
       -  
 

@@ -58,7 +58,6 @@ Note: The Android throttle apps listed above can be made to made to run on Windo
     DigiTrainsPro (Android, iOS, Windows) <digitrainspro>
     RtDtive DCC++ (Android) <rtdrive-dccpp>
     WiThrottle (iOS) <withrottle>
-    ThrottleCard (iOS) <throttlecard>
     Locontrol (iOS) <locontrol>
     SRCP Client (iOS) <srcpclient>
     Train Driver (iOS) <train-driver>

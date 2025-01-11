@@ -50,7 +50,6 @@ Android (Phones and Tablets)
 Apple iOS (Phones and Tablets)
 ------------------------------
 
-- :doc:`ThrottleCard (iOS) <software/throttlecard>`
 - :doc:`Locontrol (iOS) <software/locontrol>`
 - :doc:`WiThrottle (iOS) <software/withrottle>`
 - :doc:`SRCP Client (iOS) <software/srcpclient>`
@@ -114,7 +113,6 @@ DCC-EX (DCC-EX Native Commands)
 WiThrottle Protocol Based Throttles
 -----------------------------------
 
-- :doc:`ThrottleCard (iOS) <software/throttlecard>`
 - :doc:`Engine Driver (Android)<software/engine-driver>`
 - :doc:`Locontrol (iOS) <software/locontrol>`
 - :doc:`Cab Engineer: DCC Throttle (Andriod) <software/cab-engineer>`
