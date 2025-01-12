@@ -263,6 +263,20 @@
       -  
       -  
 
+    * -  :doc:`EX-T3-WiFi <hardware/ex-t3-wifi>`
+      -  Free
+      -  WiFi
+      -  Native
+      -  Device
+      -  DIY
+      -  X
+      -  
+      -  
+      -  
+      -  
+      -  
+      -  
+
     * -  :doc:`myBluePillThrottle7 <hardware/mybluepillthrottle>`
       -  Free
       -  Serial
