@@ -49,7 +49,7 @@ extensions = [
     'sphinx_reredirects',
     # 'sphinx_last_updated_by_git',
     'notfound.extension',
-    'linuxdoc.rstFlatTable'
+    'linuxdoc.rstFlatTable' 
 ]
 
 autosectionlabel_prefix_document = True
