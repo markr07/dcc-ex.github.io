@@ -7,7 +7,7 @@ permissions:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04.5
     steps:
       - uses: ScholliYT/Broken-Links-Crawler-Action@v3
         with:
