@@ -194,16 +194,16 @@
       -  
 
     * -  :doc:`Train Throttle <software/train-throttle>`
-      -  Free
+      -  Free / Paid
       -  WiFi
       -  WiT
       -  App
       -  
       -  
       -  
-      -  
       -  X
-      -  
+      -  X
+      -  X
       -  
       -  
 
