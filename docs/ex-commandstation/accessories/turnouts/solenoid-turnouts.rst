@@ -64,7 +64,6 @@ Here is an example |EX-R| macro that will configure a virtual turnout, setting t
 .. code-block:: cpp
 
   #define PULSE 10    // Set the duration of the pulse to 10ms
-
   #define SINGLE_COIL_TURNOUT(t, p1, p2, p3, desc)
   VIRTUAL_TURNOUT(t, desc)
   DONE
@@ -102,7 +101,6 @@ Here is an example |EX-R| macro that will configure a virtual turnout, setting t
 .. code-block:: cpp
 
   #define PULSE 10    // Set the duration of the pulse to 10ms
-
   #define DUAL_COIL_TURNOUT(t, p1, p2, p3, desc)
   VIRTUAL_TURNOUT(t, desc)
   DONE
