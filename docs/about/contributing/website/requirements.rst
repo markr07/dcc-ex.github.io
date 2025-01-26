@@ -88,11 +88,11 @@ Save and close the settings, and the irrelevant warnings should no longer bother
 Sphinx
 ------
 
-Sphinx is a transformation tool, taking rst formatted documents and turning them into a static html website, PDF, or LaTex documents.
+**Sphinx** is a transformation tool, taking rst formatted documents and turning them into a static html website, PDF, or LaTex documents.
 
-Sphinx needs Python v3, so if you don't have python installed, it's time to do this now.
+Sphinx needs **Python v3**, so if you don't have python installed, it's time to do this now.
 
-The simplest way to install Python on Windows is via the Microsoft Store. Install the latest version of Python 3 available.
+The simplest way to install Python on Windows is via the Microsoft Store. Install the latest version of **Python 3** available.
 
 Live preview
 ^^^^^^^^^^^^^^
@@ -108,14 +108,16 @@ Refer to the :doc:`/about/contributing/website/index` contributing page for more
 Images
 ------
 
-We compressed PNG files with transparent backgrounds are preferred. JPG files can be used, but should be avoided. The resolution should be 72dpi and at least 600 pixels wide (maximum 1200). We can size the images using Sphinx to reduce them as necessary to fit where we need them on the page.
+We compressed PNG files with transparent backgrounds are preferred. JPG files can be used, but should be avoided. 
+
+The resolution should be 72dpi and at least 600 pixels wide (maximum 1200). We can size the images using Sphinx to reduce them as necessary to fit where we need them on the page.
 
 Vector drawings
 ---------------
 
 All vector original files **MUST** be in .SVG format and stored the ``\image-artifacts`` folder. Final versions can them be exported as .PNG files.
 
-Inkscape is typically used to create the .SVG files, but draw.io and other apps can also be used.
+**Inkscape** is typically used to create the .SVG files, but **draw.io** and other apps can also be used.
 
 
 .. Graphs & Schemas
