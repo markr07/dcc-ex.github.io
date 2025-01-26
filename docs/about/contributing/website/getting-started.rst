@@ -3,9 +3,9 @@
 .. include:: /include/include-description.rst
 |EX-CONTRIBUTING-LOGO|
 
-***************
-Getting Started
-***************
+*******************************
+Documentation - Getting Started
+*******************************
 
 |SUITABLE| |conductor| |tinkerer| |engineer|
 
@@ -24,6 +24,18 @@ Required Software
 =================
 
 Refer to the :doc:`/about/contributing/software` page, in particular the section related to :ref:`about/contributing/software:Python 3.x` and :ref:`VSCode <about/contributing/software:Recommended editor (VSCode)>` for the software necessary to contribute to the documentation.
+
+There are a number of possible ways to do this but the instructions below rely on:
+
+* Cloning the repository on GitHub
+* Using **GitHub Desktop** to download the repository to your PC
+* Opening the repository in **VSCode**
+* Making your changes
+* Previewing your changes on your PC
+* Using **GitHub Desktop** to push your changes back to your clone of the Repository on GitHub
+* Creating a *pull request* to send your changes for review
+
+you will periodically need to 
 
 GitHub Pages, sphinx, and reStructuredText
 ==========================================
