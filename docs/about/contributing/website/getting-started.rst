@@ -45,6 +45,9 @@ In addition to this, rather than using the main or master branch, the default br
 
 ---
 
+Procedure
+=========
+
 Procedure overview
 -------------------
 
@@ -175,7 +178,6 @@ Once the build of the website completes successfully, preview it locally by open
 This file can be found in the "docs\\_build\\html" folder within the "dcc-ex.github.io" folder.
 
 ..
-
    Submission Procedure
    =====================
 
@@ -196,8 +198,20 @@ In **GitHub Desktop**:
 * Add a ``Summary`` of your changes
 * Add a ``Description`` of your changes, if the summary is not sufficient
 * click :guilabel:`Commit to Sphinx`
+* click :guilabel:`Push origin`
 
 
-
-6. Using **GitHub Desktop** to *push* your changes back to your clone of the Repository on GitHub
 7. Creating a *pull request* to send your changes for review
+------------------------------------------------------------
+
+1. Open the **GitHub website**
+2. open/select your repository ``https://github.com/<your_account_name>/dcc-ex.github.io``
+
+On the 'code' page you should see "This branch is *x* commit(s) ahead of DCC-EX/dcc-ex.github.io:sphinx."
+
+3. click on the `x commit(s) ahead of` hyperlink
+4. click on the :guilabel:`Create pull request` button
+5. confirm or add tot he title and documentation fields
+6. clink on the :guilabel:`Create pull request` button
+
+This creates a pull request to be reviewed by the documentation team
