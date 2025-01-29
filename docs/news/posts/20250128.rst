@@ -25,11 +25,18 @@ We have found that there are a small number of users who can have an issue when 
 
 #3.	**Try a different computer.** Very few computers show the issue, so there is a good chance that if one computer does not work, a different one will. If you have a computer with a different operating system, like iOS vs. Windows, give that a try.
 
-#4.	**Insert a capacitor into the RESET and GND header pins.** If the issue is not a cable, then we can adjust a timing issue by adding a capacitor between RESET and GND. Find a 1 to 10uF capacitor. If it is a Tantalum or Electrolytic type, MAKE SURE TO USE THE CORRECT POLARITY. Note that on polarized capacitors, the positive leg is longer. There is also a "+" marking on Tantalum's and a stripe on the negative side for Electrolytics.
+#4.	**Insert a capacitor into the RESET and GND header pins.** If the issue is not a cable, then we can adjust a timing issue by adding a capacitor between RESET and GND. Find a 1 to 10uF capacitor. If it is a Tantalum or Electrolytic type, MAKE SURE TO USE THE CORRECT POLARITY. Note that on polarized capacitors, the positive leg is longer. There is also a "+" marking on Tantalum's and a stripe on the negative side for Electrolytics. The pins are clearly labeled on the underside of the CSB1.
 
 .. image:: /_static/images/ex-csb1/capacitors.png
   :alt: Capacitors
-  :scale: 100%
+  :scale: 90%
+  :align: center
+
+Here is a capacitor inserted into the correct pins in the header. For a permanent install, the capacitor can be soldered under the board between Reset and the closest GND solder point.
+
+.. image:: /_static/images/ex-csb1/capacitor_fix.png
+  :alt: Capacitors
+  :scale: 60%
   :align: center
 
 We are currently testing some changes that may lead to an update in EX-Installer and/or the EX-CSB1 to compensate for the issue. We need to make sure any hardware change does not affect anything else. It would not be good to be able to upload and then find your nice, shiny, Command Station won’t reboot into operating mode. If you have the issue and are a Tinkerer or an Engineer, you may be able to help us since no one on the development team has a problem computer. You could be a valuable resource to help us beta test the best solution.
