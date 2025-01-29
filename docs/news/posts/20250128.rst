@@ -3,10 +3,10 @@
 .. include:: /include/include-news.rst
 
 :blogpost: true
-:date: 28 January, 2025>
+:date: 28 January, 2025
 :author: Fred Decker (FlightRisk)
 :category: news
-:tags: ex-csb1
+:tags: ex-csb1, ex-commandstation
 :image: 0
 
 .. image:: /_static/images/logos/product-logo-news.png
