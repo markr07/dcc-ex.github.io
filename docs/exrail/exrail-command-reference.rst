@@ -231,7 +231,7 @@ Starts a new task to send a loco onto a Route, or activate a non-loco Animation 
 |hr-dashed|
 
 ``</ KILL task_id>`` - Kills a currently running process
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Kills a currently running process by ID
 
