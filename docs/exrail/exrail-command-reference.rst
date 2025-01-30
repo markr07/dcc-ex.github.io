@@ -230,10 +230,14 @@ Starts a new task to send a loco onto a Route, or activate a non-loco Animation 
 
 |hr-dashed|
 
-``</ KILL task_id>`` - Kills a currently running sequence
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``</ KILL task_id>`` - Kills a currently running process
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Kills a currently running sequence task by ID
+Kills a currently running process by ID
+
+.. note::
+  - task_id is an internally generated ID seperate from any of the user defined IDs
+  - the KILL command should only be used when you understand the internals of the exrail task system.  It is not designed to be used in normal running.
 
 |hr-dashed|
 
