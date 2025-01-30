@@ -309,8 +309,8 @@ You can optionally, setup *github pages* from you own repository on the GitHub w
 11. Choose `gh-pages` and `root`
 12. Click :guilabel:`Save`
 
-I theory that should be enough, but the last time we trid this we also need to creat a manual build action.  If you got to the 'Actions' page and you *can't* see and action named **'Docs'**, then contact the support development and we will halp you create a manual buld action. (Which for some unknown reason then showed the automatic 'Docs' action.)
+In theory that should be enough, but the last time we tried this we also needed to create a manual build action.  If you go to the 'Actions' page and you *can't* see an action named **'Docs'**, then contact the development ateam nd we will halp you create a manual build action. (Which for some unknown reason then shows the automatic 'Docs' action.)
 
-This takes time, every time you push any changes, but you will eventually be able to see your own version of the website at ``https://<your_account_name>.github.io/dcc-ex.github.io/``.
+Building the pages and deplying takes time, every time you push any changes, but you will eventually be able to see your own version of the website at ``https://<your_account_name>.github.io/dcc-ex.github.io/``.
 
 You can see the state of the processing of your changes by looking at the ``Actions`` page.  It will also tell you there if there are any errors.
