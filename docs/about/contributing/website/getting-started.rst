@@ -298,11 +298,18 @@ You can optionally, setup *github pages* from you own repository on the GitHub w
 
 1. Open the **GitHub website**
 2. Open/select your repository ``https://github.com/<your_account_name>/dcc-ex.github.io``
-3. Open the ``Settings`` page
-4. Select ``Pages`` in the left navigation
-5. Choose `Deploy from a branch`
-6. Choose `gh-pages` and `root`
-7. Click :guilabel:`Save`
+3. Click the ``branches`` link
+4. On 'Branches' page click :guilabel:`new Branch`
+5. Give the new branch the name ``gh-pages``
+6. Select a Source of ``DCC-EX/dcc-ex.github.io`` and ``gh-pages``
+7. clich :guilabel:`Create New branch`
+8. Open the ``Settings`` page
+9. Select ``Pages`` in the left navigation
+10. Choose `Deploy from a branch`
+11. Choose `gh-pages` and `root`
+12. Click :guilabel:`Save`
+
+I theory that should be enough, but the last time we trid this we also need to creat a manual build action.  If you got to the 'Actions' page and you *can't* see and action named **'Docs'**, then contact the support development and we will halp you create a manual buld action. (Which for some unknown reason then showed the automatic 'Docs' action.)
 
 This takes time, every time you push any changes, but you will eventually be able to see your own version of the website at ``https://<your_account_name>.github.io/dcc-ex.github.io/``.
 
