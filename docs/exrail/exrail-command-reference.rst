@@ -1402,7 +1402,7 @@ All the below turnout/point definitions will define turnouts/points that are adv
 .. _turnout:
 
 ``TURNOUT( turnout_id, addr, sub_addr [, "description"]|HIDDEN )`` - Define a DCC accessory turnout/point
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Define a DCC accessory turnout/point. Note that DCC linear addresses are not supported, and must be converted to address/subaddress in order to be defined. Refer to the :ref:`reference/downloads/documents:stationary decoder address table (xlsx spreadsheet)` for help on these conversions. (or see TURNOUTL below).
 
@@ -1419,7 +1419,7 @@ Define a DCC accessory turnout/point. Note that DCC linear addresses are not sup
 .. _turnoutl:
 
 ``TURNOUTL( turnout_id, addr [, "description"]|HIDDEN )`` - Define a DCC accessory turnout/point
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Define a DCC accessory turnout/point.  This command will convert a linear address to the address/subaddress format using the TURNOUT command above.
 
@@ -1430,7 +1430,7 @@ Note when providing the name of the profile the profile names are case sensitive
 .. _pin_turnout:
 
 ``PIN_TURNOUT( turnout_id, pin [, "description"]|HIDDEN )`` - Define a pin operated turnout
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Define a pin operated turnout. When sending a CLOSE command, the pin will be HIGH, and a THROW command will set the pin LOW.
 
@@ -1446,7 +1446,7 @@ Define a pin operated turnout. When sending a CLOSE command, the pin will be HIG
 .. _servo_turnout:
 
 ``SERVO_TURNOUT( turnout_id, pin, active_angle, inactive_angle, profile [, "description"]|HIDDEN )`` - Define a servo turnout/point 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Define a servo turnout/point. "active_angle" is for THROW, "inactive_angle" is for CLOSE, and profile is one of Instant, Fast, Medium, Slow or Bounce (although clearly we don't recommend Bounce for turnouts/points!). 
 
@@ -1472,7 +1472,7 @@ Refer to :doc:`/reference/hardware/servo-module` for more information.
 .. _virtual_turnout:
 
 ``VIRTUAL_TURNOUT( turnout_id [, "description"]|HIDDEN )`` - Define a virtual turnout, which is backed by another automation sequence
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Define a virtual turnout, which is backed by another automation sequence. 
   
@@ -1876,7 +1876,7 @@ See the :ref:`Condititional Statments section <exrail_conditional_statements>` f
 .. _iftimeout:
 
 ``IFTIMEOUT`` - Tests if "timed out" flag has been set by an ATTIMEOUT() sensor reading attempt
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Tests if "timed out" flag has been set by an ATTIMEOUT() sensor reading attempt.
 
@@ -2170,7 +2170,7 @@ Reset output pin (set to LOW)
 .. _fade:
 
 ``FADE( pin, value, ms )`` - Fade an LED
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Fade an LED on a servo driver to specified value taking specified time.
 
@@ -2240,7 +2240,7 @@ This command offers a more convenient way of defining an LED connected to a PCA9
 .. _neopixel:
 
 ``NEOPIXEL( vpin, red, green, blue [,count] )`` - Controls the colour of attached Neopixel LEDs
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK|
 
@@ -2367,7 +2367,7 @@ Servo Control
 .. _servo:
 
 ``SERVO( id, position, profile )`` - Move an animation servo
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Move an animation servo. *Do NOT use for Turnouts/points.*
 
@@ -2386,7 +2386,7 @@ Move an animation servo. *Do NOT use for Turnouts/points.*
 .. _servo2:
 
 ``SERVO2( id, position, duration )`` - Move an animation servo taking duration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Move an animation servo taking duration in milliseconds. *Do NOT use for Turnouts/points*
 
@@ -2400,7 +2400,7 @@ Move an animation servo taking duration in milliseconds. *Do NOT use for Turnout
 .. _waitfor:
 
 ``WAITFOR( pin )`` - Wait for a servo motion to complete prior to continuing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The WAITFOR() command instructs EXRAIL to wait for a servo motion to complete prior to continuing.
 
@@ -2453,7 +2453,7 @@ DCC Accessory Decoder Control
 .. _onactivate:
 
 ``ONACTIVATE( addr, sub_addr )`` - Event handler for 2 part DCC accessory packet value 1
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Event handler for 2 part DCC accessory packet value 1
 
@@ -2468,7 +2468,7 @@ All these "ON" commands are event handlers that trigger a sequence of commands t
 .. _onactivatel:
 
 ``ONACTIVATEL( linear )`` - Event handler for linear DCC accessory packet value 1
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Event handler for linear DCC accessory packet value 1
 
@@ -2482,7 +2482,7 @@ All these "ON" commands are event handlers that trigger a sequence of commands t
 .. _ondeactivate:
 
 ``ONDEACTIVATE( addr, sub_addr )`` - Event handler for 2 part DCC accessory packet value 0
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Event handler for 2 part DCC accessory packet value 0
 
@@ -2497,7 +2497,7 @@ All these "ON" commands are event handlers that trigger a sequence of commands t
 .. _ondeactivatel:
 
 ``ONDEACTIVATEL( linear )`` - Event handler for linear DCC accessory packet value 0
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Event handler for linear DCC accessory packet value 0.
 
@@ -2509,7 +2509,7 @@ Event handler for linear DCC accessory packet value 0.
 .. _activate:
 
 ``ACTIVATE( addr, sub_addr )`` - Sends a DCC accessory packet with value 1
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sends a DCC accessory packet with value 1.
 
@@ -2522,7 +2522,7 @@ Sends a DCC accessory packet with value 1.
 .. _activatel:
 
 ``ACTIVATEL( linear )`` - Sends a DCC accessory packet with value 1 to a linear address
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sends a DCC accessory packet with value 1 to a linear address.
 
@@ -2534,7 +2534,7 @@ Sends a DCC accessory packet with value 1 to a linear address.
 .. _deactivate:
 
 ``DEACTIVATE( addr, sub_addr )`` - Sends a DCC accessory packet with value 0
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sends a DCC accessory packet with value 0.
 
@@ -2547,7 +2547,7 @@ Sends a DCC accessory packet with value 0.
 .. _deactivatel:
 
 ``DEACTIVATEL( addr )`` - Sends a DCC accessory packet with value 0 to a linear address
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Sends a DCC accessory packet with value 0 to a linear address
 
@@ -2559,7 +2559,7 @@ Sends a DCC accessory packet with value 0 to a linear address
 .. _dccactivate:
 
 ``DCCACTIVATE( addr, sub_addr )`` - TBA
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. todo: LOW - EXRAIL doco - DCCACTIVTE
 
@@ -2588,7 +2588,7 @@ All these "ON" commands are event handlers that trigger a sequence of commands t
 .. _xfoff:
 
 ``XFOFF( cab, func )`` - Send DCC function OFF to specific cab
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Send DCC function OFF to specific cab (e.g. coach lights) Not for Loco use - use FON instead!
 
@@ -2603,7 +2603,7 @@ All these "ON" commands are event handlers that trigger a sequence of commands t
 .. _xftoggle:
 
 ``XFTOGGLE( loco, func )`` - Toggle DCC function on specific loco
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK|
 
@@ -2616,7 +2616,7 @@ Toggle DCC function on loco with the specified DCC address.
 ----
 
 EX-FastClock Event Handlers
----------------------------
+------------------------------
 
 .. contents:: In This Section
   :depth: 4
