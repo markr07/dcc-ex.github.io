@@ -56,7 +56,7 @@ Handy information
 
   - AUTOMATION, ROUTE, and SEQUENCE IDs
   - Turnout/Point IDs
-  - Vpins - Includes physical pins on the CommandStation, virtual pins (Vpins) on I/O expander modules, and virtual pins that have no physical presence
+  - Vpins - Includes physical pins on the EX-CommandStation, virtual pins (Vpins) on I/O expander modules, and virtual pins that have no physical presence
   - Virtual block IDs as used in RESERVE/FREE
 
   Therefore, you can have an AUTOMATION, a turnout/point, a Vpin, and a virtual block all defined with the same ID without issue as these will not relate to each other. This is probably a great reason to consider aliases to avoid confusion.
@@ -159,7 +159,7 @@ These commands can be run interactively via the serial console or over Ethernet/
 ``<D EXRAIL state>`` - Enable or disable EXRAIL sequence logging
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-When the CommandStation is connected to a |serial monitor|, |EX-R| sequence logging can be turned on or off (Enabled or Disabled).
+When the |EX-CS| is connected to a |serial monitor|, |EX-R| sequence logging can be turned on or off (Enabled or Disabled).
 
   .. collapse:: For example: (click to show)
 
@@ -1375,7 +1375,7 @@ Define an event handler for when a signal is set to the red aspect.
 
   .. code-block:: cpp
 
-    SIGNAL(25, 26, 27)                // Active low red/amber/green signal using pins 25/26/27 directly on the CommandStation.
+    SIGNAL(25, 26, 27)                // Active low red/amber/green signal using pins 25/26/27 directly on the EX-CommandStation.
     SIGNALH(164 ,0, 165)              // Active high red/green signal using the first two pins of an MCP23017 I/O expander module.
     SERVO_SIGNAL(101, 100, 250, 400)  // Servo based signal using the first PCA9685 servo module.
 
@@ -3371,8 +3371,8 @@ A |DCC-EX| throttle will receive a broadcast ``<m "text">``, and a WiThrottle th
 
 ----
 
-CommandStation Functions
-------------------------
+EX-CommandStation Functions
+-----------------------------
 
 .. contents:: In This Section
   :depth: 4
