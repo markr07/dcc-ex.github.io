@@ -1222,7 +1222,7 @@ Define a DCC accessory signal. Control the colour or aspect of these via the def
 ``DCCX_SIGNAL( Address, redAspect, amberAspect, greenAspect )`` - Defines a signal (with id as dcc address)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK| |BR|-IN-V5-4-LOGO-SMALL-DARK|
+|NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK|
 
 This defines a signal (with id same as dcc address) that can be operated
 by the RED/AMBER/GREEN commands.   In each case the command uses the signal address to refer to the signal and the aspect chosen depends on the use of the RED AMBER or GREEN command sent. Other aspects may be sent but will require the direct use of the ASPECT command.
@@ -1323,7 +1323,7 @@ Set defined signal to Red (See SIGNAL).
 ``ASPECT( address, aspect )`` - Command for DCC Extended Accessories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK| |BR|-IN-V5-4-LOGO-SMALL-DARK| |BR|-IN-V5-4-LOGO-SMALL-DARK|
+|NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK|
 
 This command sends an extended accessory packet to the track, normally used to set
 a signal aspect. Aspect numbers are undefined as standards except for 0 which is
@@ -1569,7 +1569,7 @@ Throws a defined turnout/point.
 ``TOGGLE_TURNOUT( turnout_id )`` - Toggle a defined turnout/point between CLOSE/THROW
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-|NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK| |BR|-IN-V5-4-LOGO-SMALL-DARK| |BR|-IN-V5-4-LOGO-SMALL-DARK|
+|NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK|
 
 Toggles the state of the specified turnout/point between closed and thrown.
 
@@ -1651,7 +1651,7 @@ Detects a rotary encoder has changed position
 Turntable features
 ^^^^^^^^^^^^^^^^^^
 
-|NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK| |BR|-IN-V5-4-LOGO-SMALL-DARK|
+|NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK|
 
 .. contents:: In This Section
     :depth: 4
@@ -2577,8 +2577,6 @@ Sends a DCC accessory packet with value 0 to a linear address
 
 Send DCC function ON to specific cab (e.g. coach lights) *Not for Loco use - use FON instead!*
 
-All these "ON" commands are event handlers that trigger a sequence of commands to run when the event occurs. These can vary from the most basic tasks such as setting signals when turnouts are closed or thrown, to triggering complete automation sequences via a DCC accessory decoder.
-
 *Parameters:* |BR|
 |_| > **cab** - DCC address of your loco |BR|
 |_| > **func** - Function number (0-31)
@@ -2591,8 +2589,6 @@ All these "ON" commands are event handlers that trigger a sequence of commands t
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Send DCC function OFF to specific cab (e.g. coach lights) Not for Loco use - use FON instead!
-
-All these "ON" commands are event handlers that trigger a sequence of commands to run when the event occurs. These can vary from the most basic tasks such as setting signals when turnouts are closed or thrown, to triggering complete automation sequences via a DCC accessory decoder.
 
 *Parameters:* |BR|
 |_| > **cab** - DCC address of your loco |BR|
