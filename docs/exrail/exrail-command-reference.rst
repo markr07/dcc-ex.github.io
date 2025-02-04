@@ -1168,7 +1168,7 @@ Create and manage HAL device objects
 
 |hr-dashed|
 
-.. _hal:
+.. _hal: 
 
 ``HAL( device, parameters )`` - Create a HAL device in myAutomation.h
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -3387,7 +3387,7 @@ Writes direct to Serial6.
 
 |hr-dashed|
 
-.. _withrottle:
+.. _withrottle: 
 
 ``WITHROTTLE( "msg" )`` - Writes a message to WiThrottle clients
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
