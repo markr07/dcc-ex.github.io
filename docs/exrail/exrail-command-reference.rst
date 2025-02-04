@@ -382,7 +382,7 @@ Alphabetic Command List
   * :ref:`FTOGGLE`
   * :ref:`FWD`
   * :ref:`GREEN`
-  * :ref:`HAL`
+  * :ref:`EXRAIL_HAL`
   * :ref:`HAL_IGNORE_DEFAULTS`
   * :ref:`IF`
   * :ref:`IFAMBER`
@@ -500,7 +500,7 @@ Alphabetic Command List
   * :ref:`VIRTUAL_TURNOUT`
   * :ref:`WAITFOR`
   * :ref:`WAITFORTT`
-  * :ref:`WITHROTTLE`
+  * :ref:`EXRAIL_WITHROTTLE`
   * :ref:`XFOFF`
   * :ref:`XFON`
   * :ref:`XFTOGGLE`
@@ -1168,7 +1168,7 @@ Create and manage HAL device objects
 
 |hr-dashed|
 
-.. _hal:
+.. _exrail_hal: 
 
 ``HAL( device, parameters )`` - Create a HAL device in myAutomation.h
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -3387,14 +3387,14 @@ Writes direct to Serial6.
 
 |hr-dashed|
 
-.. _withrottle:
+.. _exrail_withrottle: 
 
 ``WITHROTTLE( "msg" )`` - Writes a message to WiThrottle clients
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Writes a message to WiThrottle clients (alias of ``PRINT``)
 
-A a WiThrottle throttle will receive ``Hmtext``.
+A WiThrottle controller will receive ``Hmmsg``.
 
 *Parameters:* |BR|
 |_| > **msg** - message to write
