@@ -2390,7 +2390,7 @@ Controls the colour of one attached Neopixel LED
 
 .. _playsound:
 
-``PLAYSOUND( vpin, fileNumber, volume, ??? )`` - Play mp3 files from a Micro-SD card
+``PLAY_SOUND( vpin, fileNumber, volume, ??? )`` - Play mp3 files from a Micro-SD card
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 |NEW-IN-V5-4-LOGO-SMALL| |NEW-IN-V5-4-LOGO-SMALL-DARK|
